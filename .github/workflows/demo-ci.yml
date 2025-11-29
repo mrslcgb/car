@@ -19,7 +19,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: car
+          name: cars
           path: build/car.txt
 
   test-the-car:
